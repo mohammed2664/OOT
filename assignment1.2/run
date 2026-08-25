@@ -1,0 +1,6 @@
+Java: cd Java; javac -d output src/*.java; if ($?) { java -cp output App }
+C++:  cd CPP; C:\MinGW\bin\g++.exe src/main.cpp -o output/tms.exe; if ($?) { .\output\tms.exe }
+C#:   cd CS; C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe -out:output/TMS.exe src/*.cs; if ($?) { .\output\TMS.exe }
+Python: cd Python; python src/main.py
+
+To run all at once:  Right-click run_all.ps1 → "Run with PowerShell"

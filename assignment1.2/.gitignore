@@ -1,0 +1,23 @@
+# Compiled Java
+*.class
+
+# Compiled C++
+*.exe
+*.o
+*.obj
+
+# Compiled C#
+*.exe
+*.dll
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Scripts
+run_all.ps1
